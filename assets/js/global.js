@@ -92,7 +92,7 @@ function carritoSidebarHTML() {
         total.innerHTML = `
             <div class="sidebar-carrito-footer d-flex flex-column">
                 <span>TOTAL $${totalCarrito}</span>
-                <a href="/carrito.html" class="btn btn-primary">VER CARRITO</a>
+                <a href="./carrito.html" class="btn btn-primary">VER CARRITO</a>
                 <a href="#" class="boton-finalizar-compra btn btn-primary">FINALIZAR COMPRA</a>
             </div>
         `;
@@ -109,7 +109,7 @@ function carritoSidebarHTML() {
     else {
         carritoVacioContainer.innerHTML = `
             <p>Tu Carrito Está Vacío</p>
-            <a href="/tienda.html" class="btn btn-primary">Ir a la Tienda</a>
+            <a href="./tienda.html" class="btn btn-primary">Ir a la Tienda</a>
         `;
         carritoLlenoContainer.classList.remove('d-flex');
         carritoLlenoContainer.classList.add('d-none');
@@ -207,7 +207,7 @@ function eventoFinalizarCompra () {
                 html: `
                     <p>Vuelve a la tienda para seguir comprando o mira el detalle de tu orden aquí:</p>
                     <div>
-                        <a href="/tienda.html" class="btn btn-primary boton-popup-finalizar" target="">Seguir Comprando</a>
+                        <a href="./tienda.html" class="btn btn-primary boton-popup-finalizar" target="">Seguir Comprando</a>
                         <a href="mi-compra.html?ordenId=${ordenActual}" class="btn btn-primary boton-popup-finalizar" target="">Ver mi Orden</a>
                     </div>
                 `,

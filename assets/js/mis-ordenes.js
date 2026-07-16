@@ -25,7 +25,7 @@ function historialOrdenesHTML () {
         const sinOrdenesContainer = document.createElement('div');
         sinOrdenesContainer.innerHTML = `
             <p>No hay órdenes</p>
-            <a href="/tienda.html" class="btn btn-primary">Ir a la Tienda</a>
+            <a href="./tienda.html" class="btn btn-primary">Ir a la Tienda</a>
         `;
         sinOrdenes.appendChild(sinOrdenesContainer);
         conOrdenes.classList.add('d-none');

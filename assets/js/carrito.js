@@ -84,7 +84,7 @@ function carritoEnPagina() {
     else {
         carritoVacio.innerHTML = `
             <p>Tu Carrito Está Vacío</p>
-            <a href="/tienda.html" class="btn btn-primary">Ir a la Tienda</a>
+            <a href="./tienda.html" class="btn btn-primary">Ir a la Tienda</a>
         `;
         carritoLleno.classList.remove('d-flex');
         carritoLleno.classList.add('d-none');
