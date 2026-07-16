@@ -6,7 +6,7 @@ const parametroUrlCategoriaActual = new URLSearchParams(window.location.search);
 const urlParametroID = parametroUrlCategoriaActual.get('id');
 
 const peticionFiltroProductosPorCategoria = () => {
-    fetch('/productos.json')
+    fetch('./productos.json')
         .then((respuesta) => respuesta.json())
         .then((datos) => {
             const categoriaActual = datos.find((producto) => 
@@ -20,8 +20,8 @@ const peticionFiltroProductosPorCategoria = () => {
                     card.classList.add('col');
                     card.innerHTML = `
                         <div class="card h-100">   
-                            <a href="producto.html?id=${item.id_producto}&producto=${item.nombre_producto}" class="" data-id-producto="${item.id_producto}">
-                                <img src="${item.imagen_producto}" class="card-img-top" alt="${item.nombre_producto}">
+                            <a href="./producto.html?id=${item.id_producto}&producto=${item.nombre_producto}" class="" data-id-producto="${item.id_producto}">
+                                <img src="./${item.imagen_producto}" class="card-img-top" alt="${item.nombre_producto}">
                                 <div class="card-body">
                                     <h5 class="card-title">${item.nombre_producto}</h5>
                                     <p class="card-text">$${item.precio}</p>

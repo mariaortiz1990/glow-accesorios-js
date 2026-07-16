@@ -57,8 +57,8 @@ function carritoSidebarHTML() {
             const productoSeleccionado = document.createElement('li');
             productoSeleccionado.innerHTML = `
                 <div class="producto-sidebar d-flex flex-row">
-                    <a href="producto.html?id=${producto.id_producto}&producto=${producto.nombre_producto}" data-id-producto="${producto.id_producto}" class="imagen-producto-sidebar" aria-current="true">
-                        <img src="${producto.imagen_producto}" class="float-left rounded" alt="${producto.nombre_producto}}">
+                    <a href="./producto.html?id=${producto.id_producto}&producto=${producto.nombre_producto}" data-id-producto="${producto.id_producto}" class="imagen-producto-sidebar" aria-current="true">
+                        <img src="./${producto.imagen_producto}" class="float-left rounded" alt="${producto.nombre_producto}}">
                     </a>
                     <div class="column-2 w-100">
                         <div class="w-100 carrito-info-producto-sidebar d-flex flex-column">
@@ -208,7 +208,7 @@ function eventoFinalizarCompra () {
                     <p>Vuelve a la tienda para seguir comprando o mira el detalle de tu orden aquí:</p>
                     <div>
                         <a href="./tienda.html" class="btn btn-primary boton-popup-finalizar" target="">Seguir Comprando</a>
-                        <a href="mi-compra.html?ordenId=${ordenActual}" class="btn btn-primary boton-popup-finalizar" target="">Ver mi Orden</a>
+                        <a href="./mi-compra.html?ordenId=${ordenActual}" class="btn btn-primary boton-popup-finalizar" target="">Ver mi Orden</a>
                     </div>
                 `,
                 showConfirmButton: false,

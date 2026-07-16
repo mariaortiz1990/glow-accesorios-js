@@ -31,8 +31,8 @@ function ordenHTML () {
         detalleProductos.innerHTML = `
             <th scope="row">${numeroItem}</th>
             <td>
-                <a href="producto.html?id=${producto.id_producto}&producto=${producto.nombre_producto}" data-id-producto="${producto.id_producto}" class="imagen-producto-carrito" aria-current="true">
-                    <img src="${producto.imagen_producto}" class="float-left rounded" alt="${producto.nombre_producto}}">
+                <a href="./producto.html?id=${producto.id_producto}&producto=${producto.nombre_producto}" data-id-producto="${producto.id_producto}" class="imagen-producto-carrito" aria-current="true">
+                    <img src="./${producto.imagen_producto}" class="float-left rounded" alt="${producto.nombre_producto}}">
                 </a>
             </td>
             <td>${producto.nombre_producto}</td>

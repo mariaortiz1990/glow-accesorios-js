@@ -3,7 +3,7 @@ const peticionInfoDelProducto = () => {
     const productoContainer = document.getElementById('producto-container');
     const parametroUrlProductoActual = new URLSearchParams(window.location.search);
     const urlParametroID = parametroUrlProductoActual.get('id');    
-    fetch('/productos.json')
+    fetch('./productos.json')
         .then((respuesta) => respuesta.json())
         .then((datos) => {
             const productoActual = datos.find((producto) => 
@@ -16,7 +16,7 @@ const peticionInfoDelProducto = () => {
             productoSubContainer.classList.add('row', 'row-cols-1', 'row-cols-md-2', 'row-cols-lg-2', 'g-3');
             productoSubContainer.innerHTML = `
                     <div class="imagen-producto">
-                        <img src="${productoActual.imagen_producto}" class="card-img-top" alt="${productoActual.nombre_producto}">
+                        <img src="./${productoActual.imagen_producto}" class="card-img-top" alt="${productoActual.nombre_producto}">
                     </div>
                     <div class="descripcion">
                         <h1 class="">${productoActual.nombre_producto}</h1>

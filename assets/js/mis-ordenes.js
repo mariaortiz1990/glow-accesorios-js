@@ -14,7 +14,7 @@ function historialOrdenesHTML () {
             ordenFila.innerHTML = `
                 <th scope="row">${numeroItem}</th>
                 <td>
-                    <a href="mi-compra.html?ordenId=${item}">Orden# ${item}</a>
+                    <a href="./mi-compra.html?ordenId=${item}">Orden# ${item}</a>
                 </td>
             `;
             item = item + 1;
