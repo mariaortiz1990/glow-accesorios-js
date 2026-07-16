@@ -1,0 +1,170 @@
+[
+    {
+        "id_producto": 1,
+        "nombre_producto": "Anillo Esmeralda",
+        "descripcion": "Anillo enchapado en Oro 18k con piedra simil engarzada. Se envía dentro de un sobrecito de PVC con cierre hermético diseñado específicamente para que cada prenda se mantenga seca y resguardada.",
+        "imagen_producto": "/assets/img/productos/anillo-esmeralda.jpg",
+        "categoria": {
+            "id_categoria": 1,
+            "nombre_categoria": "Anillos",
+            "imagen_categoria": "/assets/img/categoria/categoria-anillos.jpg"
+        },
+        "precio": "38000"
+    },
+    {
+        "id_producto": 2,
+        "nombre_producto": "Anillo Nácar",
+        "descripcion": "Anillo enchapado en Oro 18k con piedra simil engarzada. Se envía dentro de un sobrecito de PVC con cierre hermético diseñado específicamente para que cada prenda se mantenga seca y resguardada.",
+        "imagen_producto": "/assets/img/productos/anillo-nacar.jpg",
+        "categoria": {
+            "id_categoria": 1,
+            "nombre_categoria": "Anillos",
+            "imagen_categoria": "/assets/img/categoria/categoria-anillos.jpg"
+        },
+        "precio": "45000"
+    },
+    {
+        "id_producto": 3,
+        "nombre_producto": "Anillo Triple",
+        "descripcion": "Anillo enchapado en Oro 18k con piedras engarzadas. Se envía dentro de un sobrecito de PVC con cierre hermético diseñado específicamente para que cada prenda se mantenga seca y resguardada.",
+        "imagen_producto": "/assets/img/productos/anillo-triple.jpg",
+        "categoria": {
+            "id_categoria": 1,
+            "nombre_categoria": "Anillos",
+            "imagen_categoria": "/assets/img/categoria/categoria-anillos.jpg"
+        },
+        "precio": "27000"
+    },
+    {
+        "id_producto": 4,
+        "nombre_producto": "Arete Lágrima",
+        "descripcion": "Aretes enchapados en Oro 18k. Se envía dentro de un sobrecito de PVC con cierre hermético diseñado específicamente para que cada prenda se mantenga seca y resguardada.",
+        "imagen_producto": "/assets/img/productos/arete-lagrima.jpg",
+        "categoria": {
+            "id_categoria": 2,
+            "nombre_categoria": "Aretes",
+            "imagen_categoria": "/assets/img/categoria/categoria-aretes.jpg"
+        },
+        "precio": "24500"
+    },
+    {
+        "id_producto": 5,
+        "nombre_producto": "Arete Perla",
+        "descripcion": "Aretes enchapados en Oro 18k. Se envía dentro de un sobrecito de PVC con cierre hermético diseñado específicamente para que cada prenda se mantenga seca y resguardada.",
+        "imagen_producto": "/assets/img/productos/arete-perla.jpg",
+        "categoria": {
+            "id_categoria": 2,
+            "nombre_categoria": "Aretes",
+            "imagen_categoria": "/assets/img/categoria/categoria-aretes.jpg"
+        },
+        "precio": "22500"
+    },
+    {
+        "id_producto": 6,
+        "nombre_producto": "Collar Cruz",
+        "descripcion": "Collar doble con dije de Cruz, enchapado en Oro 18k. Se envía dentro de un sobrecito de PVC con cierre hermético diseñado específicamente para que cada prenda se mantenga seca y resguardada.",
+        "imagen_producto": "/assets/img/productos/collar-cruz.jpg",
+        "categoria": {
+            "id_categoria": 3,
+            "nombre_categoria": "Collares",
+            "imagen_categoria": "/assets/img/categoria/categoria-collares.jpg"
+        },
+        "precio": "31000"
+    },
+    {
+        "id_producto": 7,
+        "nombre_producto": "Collar Divine",
+        "descripcion": "Collar con doble dije, enchapado en Oro 18k. Se envía dentro de un sobrecito de PVC con cierre hermético diseñado específicamente para que cada prenda se mantenga seca y resguardada.",
+        "imagen_producto": "/assets/img/productos/collar-divine.jpg",
+        "categoria": {
+            "id_categoria": 3,
+            "nombre_categoria": "Collares",
+            "imagen_categoria": "/assets/img/categoria/categoria-collares.jpg"
+        },
+        "precio": "45000"
+    },
+    {
+        "id_producto": 8,
+        "nombre_producto": "Collar Lazo",
+        "descripcion": "Collar con forma de lazo, enchapado en Oro 18k. Se envía dentro de un sobrecito de PVC con cierre hermético diseñado específicamente para que cada prenda se mantenga seca y resguardada.",
+        "imagen_producto": "/assets/img/productos/collar-lazo.jpg",
+        "categoria": {
+            "id_categoria": 3,
+            "nombre_categoria": "Collares",
+            "imagen_categoria": "/assets/img/categoria/categoria-collares.jpg"
+        },
+        "precio": "37000"
+    },
+    {
+        "id_producto": 9,
+        "nombre_producto": "Collar Triple",
+        "descripcion": "Collar triple con diferente tipo de cadena, enchapado en Oro 18k. Se envía dentro de un sobrecito de PVC con cierre hermético diseñado específicamente para que cada prenda se mantenga seca y resguardada.",
+        "imagen_producto": "/assets/img/productos/collar-triple.jpg",
+        "categoria": {
+            "id_categoria": 3,
+            "nombre_categoria": "Collares",
+            "imagen_categoria": "/assets/img/categoria/categoria-collares.jpg"
+        },
+        "precio": "34000"
+    },
+    {
+        "id_producto": 10,
+        "nombre_producto": "Combo Venom",
+        "descripcion": "Combo anillos y pulseras enchapados en Oro 18k. Se envía dentro de un sobrecito de PVC con cierre hermético diseñado específicamente para que cada prenda se mantenga seca y resguardada.",
+        "imagen_producto": "/assets/img/productos/combo-venom.jpg",
+        "categoria": {
+            "id_categoria": 4,
+            "nombre_categoria": "Combos",
+            "imagen_categoria": "/assets/img/categoria/categoria-combos.jpg"
+        },
+        "precio": "54000"
+    },
+    {
+        "id_producto": 11,
+        "nombre_producto": "Organizador de Gamuza",
+        "descripcion": "Organizador de gamuza con 24 espacios, para que cada prenda se mantenga seca y resguardada.",
+        "imagen_producto": "/assets/img/productos/organizador-gamuza.jpg",
+        "categoria": {
+            "id_categoria": 5,
+            "nombre_categoria": "Organizadores",
+            "imagen_categoria": "/assets/img/categoria/categoria-organizadores.jpg"
+        },
+        "precio": "17000"
+    },
+    {
+        "id_producto": 12,
+        "nombre_producto": "Organizador Compacto",
+        "descripcion": "Organizador compacto con cierre, para que cada prenda se mantenga seca y resguardada.",
+        "imagen_producto": "/assets/img/productos/organizador-compacto.jpg",
+        "categoria": {
+            "id_categoria": 5,
+            "nombre_categoria": "Organizadores",
+            "imagen_categoria": "/assets/img/categoria/categoria-organizadores.jpg"
+        },
+        "precio": "15000"
+    },
+    {
+        "id_producto": 13,
+        "nombre_producto": "Pulsera Corazón",
+        "descripcion": "Pulsera doble con dije de corazón, enchapada en Oro 18k. Se envía dentro de un sobrecito de PVC con cierre hermético diseñado específicamente para que cada prenda se mantenga seca y resguardada.",
+        "imagen_producto": "/assets/img/productos/pulsera-corazon.jpg",
+        "categoria": {
+            "id_categoria": 6,
+            "nombre_categoria": "Pulseras",
+            "imagen_categoria": "/assets/img/categoria/categoria-pulseras.jpg"
+        },
+        "precio": "40000"
+    },
+    {
+        "id_producto": 14,
+        "nombre_producto": "Pulsera Sol",
+        "descripcion": "Pulsera triple con dije de Sol, enchapada en Oro 18k. Se envía dentro de un sobrecito de PVC con cierre hermético diseñado específicamente para que cada prenda se mantenga seca y resguardada.",
+        "imagen_producto": "/assets/img/productos/pulsera-sol.jpg",
+        "categoria": {
+            "id_categoria": 6,
+            "nombre_categoria": "Pulseras",
+            "imagen_categoria": "/assets/img/categoria/categoria-pulseras.jpg"
+        },
+        "precio": "42000"
+    }
+]
